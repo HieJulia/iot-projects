@@ -109,4 +109,22 @@
     + Write Sketch program - Arduino IDE - write the sketch program 
     + Coins using optical sensing : 
         + Camera - coin model - connect your camera - embedded system - Raspberry Pi - image processing - install OpenCv - Python app to detect coins - 
-+ Display 
++ Display interface 
+    + Arduino and RP - LCD 
+    + Input interface - module - get input from user - Membrance matrix keypad - Adafruit - Keypad lib - arduino - 
++ Design database model : Product - Transaction - Vending 
++ Building Vending machine 
+    + Finite state machine - 
+    + Input from user - RP = central unit for the vending machine - Control input from user - handle product selection processing - monitor - replay modules to communicate with them- 
+
+
+## Smart digital advertising dashboard 
++ Digital signage platform 
++ Smart digital advertising system 
++ Human presence 
++ Display and delivery content 
++ 1Play : digital signage system - RP - Pi Zero and Pi 1,2,3 - images, videos, RTSP video streaming - Content - cloud server 
++ Screenly : platform - based web application 
++ Display - Ads System + Local Database = OS 
++ Deploy multiple ad servers at several location  - central database - ad content - push to each local ad server 
++ Connect between server - and local ad server - estimate network bandwidth capacity - push to the local server at certain periods 
