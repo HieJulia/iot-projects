@@ -41,3 +41,72 @@
     + VCC is connnected to 5V on the Arduino 
     + GND - GND on Arduino 
     + SIG - A0 on the Arduino 
++ Open Arduino software - download the tool 
+    + Write Sketch program - Create this script 
++ Temparature and Huminity sensor 
+    + Use DHRT22 - DHRT 11 - sensor 
+    + Single wire digital interface 
+    + Connect DHT22 module to the Arduino 
+    + Access the DHT 22 on the Arduino - use DHT sensor lib - from Adafruit 
++ Watering your garden and farm    
+    + Pumps - Arduino - RaspBerry Pi 
++ Build a smart gardening system 
+    + PID controller - manage all inputs from our sensors - decision system 
+    + Sensor -> MCU board with wireless module - Relay - Watering system - A computer with decision support system 
+    + You can replace MCU board and computer with a mini computer such as RaspBerry Pi  
++ PID controller 
+    + Proportional = integral - derivative - PID control
+    + Read sensor - compute the desired actuator output - 
++ Send data from Arduino to the server 
+    + Models have built in Wi Fi that can connect and send data to a server 
+    + HTTP or MQTT proto - 
+
+# Projects 
+## A smart Parking System
++ Using Arduino and Raspberry Pi boards 
++ Introduce smart parking system 
++ Sensor devices 
+    + Ultrasonic sensor - HC SR 04 : measure range between itself and an object 
+    + ultrasonic transitter - control circuit 
+    + 4 pins - VCC- GND - Echo - Trigger 
+    + Used it with Arduino, Raspberry Pi, other IoT boards 
+    + Develop a simple app to access HC Sr 04 on an Arduino board 
+        + VCC connect to Arduino 5V 
+        + GND connect to Arduino GND 
+        + Echo - 
+        + Trigger
+    + PIR monitor sensor 
+        + Object movement 
+        + PIR motion sensor 
+    + Hall Effect sensor 
+        + Magnet 
+    + Camera 
+        + Image processing - machine learning 
+        + Pi Camera - V2  
+    + Ultrasonic sensor 
+    + Vehicle plate number detection 
+        + Open ALPR - 
++ Detection 
++ Parking management system 
+    + Sensors - connect to central system - 
+        + Web application - Restful - MQTT - Database 
+        + Browser/ Mobile app - web application - Restful - MQTT - Core parking system application - database - sensor 
+        + sensor - connect to board system - Arduino - Raspberry pi - sensor will detect 
+        + put a camera - and sensors on each floor in the building - build gates with the sensor - deploy 
+
+
+
+## Vending machine 
++ Vending machine - automate machine that sells products  - central control machine - detect coins for payment - build user interaction - design database model - build vending machine 
++ Machine cabinet - Product storage - Central processor machine - Payment system - User experience 
++ Vending Machine system : core vending system - back end system - User input - user selection - product delivery - refund - 
++ Raspberry pi - arduino : central processing machine - GPIO for sensor and actuator devices 
++ Central control machine : FPGA to control all processes and transaction - AMS sensit 2PC board 
++ Simple vending machien - Arduino board = control unit in your vending machine - digital - analog I/O pins - attach to the machine - extends I/O pins using additional ICs
++ Raspberry PI = control unit - for vending machine - control unit - computer - low end feature - desktop lib : OpenCV - with RP = image processing and detection 
++ Detect 
+    + coin weight : sensor Gravity - DFRobot - weight sensor - use directly with Arduino board - HX711 IC to measure object weight - SparkFun - module - connect Gravity to Arduino through analog inputs - Sensor DOUT pin - Sensor SCK pin 
+    + Write Sketch program - Arduino IDE - write the sketch program 
+    + Coins using optical sensing : 
+        + Camera - coin model - connect your camera - embedded system - Raspberry Pi - image processing - install OpenCv - Python app to detect coins - 
++ Display 
